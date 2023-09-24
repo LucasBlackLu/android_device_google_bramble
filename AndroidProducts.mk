@@ -17,7 +17,10 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bramble.mk \
     $(LOCAL_DIR)/aosp_bramble_64.mk \
+    $(LOCAL_DIR)/derp_bramble.mk \
+    $(LOCAL_DIR)/derp_bramble_64.mk \
     $(LOCAL_DIR)/aosp_bramble_hwasan.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_bramble-userdebug
+    aosp_bramble-userdebug \
+    derp_bramble-userdebug

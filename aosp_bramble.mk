@@ -68,21 +68,4 @@ PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := google
 PRODUCT_NAME := aosp_bramble
 PRODUCT_DEVICE := bramble
-PRODUCT_MODEL := Pixel 4a (5G)
-
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-include device/google/bramble/device-custom.mk
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=bramble \
-    PRIVATE_BUILD_DESC="bramble-user 13 TQ3A.230805.001 10316531 release-keys"
-
-BUILD_FINGERPRINT := google/bramble/bramble:13/TQ3A.230805.001/10316531:user/release-keys
-
-$(call inherit-product, vendor/google/bramble/bramble-vendor.mk)
+PRODUCT_MODEL := AOSP on bramble
