@@ -32,4 +32,5 @@ else
     -include vendor/google_devices/bramble/proprietary/BoardConfigVendor.mk
 endif
 
+BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 include device/google/bramble/BoardConfigCustom.mk
