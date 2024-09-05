@@ -23,4 +23,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     aosp_bramble-userdebug \
     aosp_bramble-trunk_staging-userdebug \
-    derp_bramble-userdebug
+    derp_bramble-trunk_staging-userdebug
