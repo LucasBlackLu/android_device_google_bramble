@@ -72,6 +72,11 @@ write_headers
 write_makefiles "${MY_DIR}/proprietary-files.txt"
 write_makefiles "${MY_DIR}/proprietary-files-carriersettings.txt"
 write_makefiles "${MY_DIR}/proprietary-files-vendor.txt"
+<<<<<<< HEAD
+=======
+
+append_firmware_calls_to_makefiles "${MY_DIR}/proprietary-firmware.txt"
+>>>>>>> 1a510609cdd7d4bbb54b7f711c70196f8b5599ff
 
 # Finish
 write_footers
